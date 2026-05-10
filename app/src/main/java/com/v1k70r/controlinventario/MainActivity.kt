@@ -16,7 +16,6 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            // Aplicamos el tema personalizado para forzar el modo oscuro y rojo
             ControlInventarioTheme {
                 val navController = rememberNavController()
                 val repository = DependencyProvider.repository
